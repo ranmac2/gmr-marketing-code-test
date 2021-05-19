@@ -1,0 +1,126 @@
+header {
+    background-color: #333333;
+    height: 50px;
+    width: 100%;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 3px;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: #462144;
+}
+
+.hero-image {
+    opacity: 50%;
+    width: 100%;
+}
+
+.container {
+    height: 500px;
+}
+
+.headline-form-card {
+    height: 900px;
+    position: absolute;
+    top: 240px;
+    left: 120px;
+    z-index: 2;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ddd;
+    border: solid black 2px;
+}
+
+.headline-form-card h1 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.headline-form-card p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 12px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.headline-form {
+    background-color: white;
+    height: 600px;
+    margin: 40px;
+}
+
+input[type=text] {
+    padding: 12px 35px;
+    border: 1px solid #666;
+    border-radius: 2px;
+    margin: 10px 15px;
+}
+
+#address {
+    width: 81.5%;
+}
+
+.secondary-cta {
+    background-image: linear-gradient(to bottom right, #4f4099, #0096d7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.secondary-cta h1 {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.secondary-cta p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+footer nav {
+    padding-left: 100px;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+footer nav ul li {
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.footer-p {
+    font-size: 7px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    padding-left: 150px;
+    width: 75%;
+}
