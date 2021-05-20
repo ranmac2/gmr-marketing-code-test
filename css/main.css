@@ -22,6 +22,15 @@ header img {
     width: 100%;
 }
 
+.logo img {
+    height: 75px;
+    width: 75px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+    z-index: 2;
+}
+
 .container {
     height: 500px;
 }
@@ -124,7 +133,7 @@ input[type=checkbox] {
 
 #submit-btn {
     width: 100%;
-    height: 30px;
+    height: 40px;
     background-image: linear-gradient(to right, #7a3788, #f08831);
     color: white;
     font-family: "Roboto", sans-serif;
@@ -141,6 +150,9 @@ input[type=checkbox] {
 
 .secondary-cta {
     background-image: linear-gradient(to bottom right, #4f4099, #0096d7);
+}
+
+.secondary-cta-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -181,6 +193,13 @@ footer nav ul li {
     font-weight: 400;
 }
 
+footer nav ul li a {
+    color: rgb(6, 6, 230);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
 .footer-p {
     font-size: 7px;
     font-family: "Roboto", sans-serif;
@@ -189,7 +208,7 @@ footer nav ul li {
     width: 75%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     
 }
 
