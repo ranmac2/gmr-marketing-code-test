@@ -134,6 +134,11 @@ input[type=checkbox] {
     border: none; 
 }
 
+#submit-btn:hover {
+    background-image: none;
+    background-color: #f08831;
+}
+
 .secondary-cta {
     background-image: linear-gradient(to bottom right, #4f4099, #0096d7);
     display: flex;
@@ -182,4 +187,12 @@ footer nav ul li {
     font-weight: 300;
     padding-left: 150px;
     width: 75%;
+}
+
+@media only screen and (max-width: 767px) {
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    
 }
