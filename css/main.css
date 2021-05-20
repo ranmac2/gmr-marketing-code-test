@@ -208,10 +208,57 @@ footer nav ul li a {
     width: 75%;
 }
 
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (min-width: 1024px) {
+
 }
 
-@media only screen and (max-width: 1024px) {
-    
+@media only screen and (min-width: 1200px) {
+
+    .hero {
+        height: 600px;
+    }
+
+    .container {
+        height: 600px;
+    }
+    .headline-form-card {
+        margin-left: 60px;
+        height: 1000px;
+    }
+
+    .headline-form-card h1 {
+        font-size: 48px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .headline-form-card p {
+        font-size: 16px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    .headline-form h1 {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    input[type=text] {
+        padding: 10px 313px 10px 10px;
+        border: 1px solid #666;
+        border-radius: 2px;
+        margin: 10px 15px;
+    }
+
+    #address {
+        width: 65.5%;
+    }
+
+    .logo img {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 110px;
+        left: 650px;
+    }
 }

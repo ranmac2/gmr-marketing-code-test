@@ -15,7 +15,7 @@ $(document).ready(function(){
 
     $('.secondary-cta-text').css({opacity: 0, "margin-right": 300});
     $(document).scroll(function() {
-        $('.secondary-cta-text').animate({opacity: 1, "margin-right": 35}, 1500);  
+        $('.secondary-cta-text').animate({opacity: 1, "margin-right": 0}, 1500);  
     });
 });
 
