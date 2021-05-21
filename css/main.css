@@ -4,6 +4,9 @@ header {
     background-color: #333333;
     height: 50px;
     width: 100%;
+    position: fixed;
+    z-index: 999;
+
 }
 
 header img {
@@ -213,7 +216,9 @@ footer nav ul li a {
 /************************** MEDIA QUERIES **************************/
 
 @media only screen and (min-width: 1024px) {
-
+    .logo img {
+        left: 475px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -237,11 +242,11 @@ footer nav ul li a {
     }
 
     .container {
-        height: 600px;
+        height: 650px;
     }
 
     .headline-form-card {
-        margin-left: 40px;
+        margin-left: 20px;
         padding-left: 50px;
         height: 1050px;
     }
@@ -260,8 +265,6 @@ footer nav ul li a {
 
     .headline-form {
         margin-right: 95px;
-        /* padding-left: 50px; */
-
     }
 
     .headline-form h1 {
@@ -289,7 +292,7 @@ footer nav ul li a {
     }
 
     #agreement {
-        padding-left: 30px;
+        padding-left: 25px;
     }
 
     #check {
@@ -303,7 +306,24 @@ footer nav ul li a {
     }
 
     .secondary-cta {
-        height: 600px;
+        height: 650px;
+    }
+
+    .secondary-cta-text {
+        padding-top: 65px;
+    }
+
+    .secondary-cta-text h1 {
+        font-size: 40px;
+    }
+
+    footer nav ul li a {
+        font-size: 12px;
+    }
+
+    .footer-p {
+        font-size: 14px;
+        margin-bottom: 50px;
     }
 
     
