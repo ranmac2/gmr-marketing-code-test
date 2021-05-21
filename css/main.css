@@ -1,3 +1,5 @@
+/************************** BASE STYLES (MOBILE FIRST) **************************/
+
 header {
     background-color: #333333;
     height: 50px;
@@ -208,11 +210,27 @@ footer nav ul li a {
     width: 75%;
 }
 
+/************************** MEDIA QUERIES **************************/
+
 @media only screen and (min-width: 1024px) {
 
 }
 
 @media only screen and (min-width: 1200px) {
+
+    header img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo img {
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 110px;
+        left: 600px;
+    }
 
     .hero {
         height: 600px;
@@ -221,44 +239,72 @@ footer nav ul li a {
     .container {
         height: 600px;
     }
+
     .headline-form-card {
-        margin-left: 60px;
-        height: 1000px;
+        margin-left: 40px;
+        padding-left: 50px;
+        height: 1050px;
     }
 
     .headline-form-card h1 {
         font-size: 48px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding-left: 75px;
+        padding-right: 125px;
     }
 
     .headline-form-card p {
         font-size: 16px;
-        padding-left: 75px;
-        padding-right: 75px;
+        padding-left: 45px;
+        padding-right: 95px;
+    }
+
+    .headline-form {
+        margin-right: 95px;
+        /* padding-left: 50px; */
+
     }
 
     .headline-form h1 {
         font-size: 14px;
-        padding-left: 20px;
+        padding-left: 30px;
+    }
+
+    .headline-form p {
+        font-size: 14px; 
+        color: #666;
+        padding-top: 5px;
+        padding-right: 35px;
     }
 
     input[type=text] {
-        padding: 10px 313px 10px 10px;
+        padding: 10px 190px 10px 10px;
+        width: 185px;
         border: 1px solid #666;
         border-radius: 2px;
-        margin: 10px 15px;
+        margin: 10px 10px 10px 30px;
     }
 
     #address {
-        width: 65.5%;
+        width: 70.35%;
     }
 
-    .logo img {
-        height: 150px;
-        width: 150px;
-        position: absolute;
-        top: 110px;
-        left: 650px;
+    #agreement {
+        padding-left: 30px;
     }
+
+    #check {
+        margin-top: 7px;
+    }
+
+    #submit-btn {
+        font-size: 14px;
+        font-weight: 400;
+        margin-left: 0;
+    }
+
+    .secondary-cta {
+        height: 600px;
+    }
+
+    
 }
