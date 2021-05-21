@@ -216,8 +216,22 @@ footer nav ul li a {
 /************************** MEDIA QUERIES **************************/
 
 @media only screen and (min-width: 1024px) {
+    
     .logo img {
         left: 475px;
+    }
+
+    input[type=text] {
+        padding-right: 130px;
+    }
+
+    #address {
+        width: 74.5%;
+    }
+
+    .footer-p {
+        margin-bottom: 25px;
+        font-size: 12px
     }
 }
 
